@@ -1,0 +1,20 @@
+package: github.com/guilhem/kocorico
+import:
+- package: github.com/spf13/cobra
+- package: github.com/spf13/viper
+- package: github.com/coreos/etcd
+  version: ~3.1.4
+  subpackages:
+  - client
+- package: github.com/pressly/chi
+  version: ~2.0.0
+  subpackages:
+  - middleware
+- package: github.com/spf13/pflag
+  version: d90f37a48761fe767528f31db1955e4f795d652f
+- package: github.com/mickep76/etcdmap
+- package: github.com/coreos/coreos-cloudinit
+  version: ~1.13.0
+  subpackages:
+  - config
+- package: gopkg.in/yaml.v2

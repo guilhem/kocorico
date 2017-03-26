@@ -1,0 +1,83 @@
+hash: 4e3998b2aa74480e2e79e85aff33d985ff4cec6f1b6e4b396314ff50cd2ad6ae
+updated: 2017-03-26T18:55:32.851197615+02:00
+imports:
+- name: github.com/coreos/coreos-cloudinit
+  version: 5be99bf577f2768193c7fb587ef5a8806c1503cf
+  subpackages:
+  - config
+- name: github.com/coreos/etcd
+  version: 41e52ebc22add2f9b91a59f90db8e31f7e5c0538
+  subpackages:
+  - client
+  - pkg/pathutil
+  - pkg/types
+- name: github.com/coreos/yaml
+  version: 6b16a5714269b2f70720a45406b1babd947a17ef
+- name: github.com/fsnotify/fsnotify
+  version: ff7bc41d4007f67e5456703c34342df4e0113f64
+- name: github.com/hashicorp/hcl
+  version: 630949a3c5fa3c613328e1b8256052cbc2327c9b
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/magiconair/properties
+  version: 51463bfca2576e06c62a8504b5c0f06d61312647
+- name: github.com/mickep76/etcdmap
+  version: c53d6e11e292bc507b43e8f8f43fa477184edd75
+- name: github.com/mitchellh/mapstructure
+  version: 53818660ed4955e899c0bcafa97299a388bd7c8e
+- name: github.com/pelletier/go-buffruneio
+  version: c37440a7cf42ac63b919c752ca73a85067e05992
+- name: github.com/pelletier/go-toml
+  version: f6e7596e8daafd44dc9e5c208dc73035020c8481
+- name: github.com/pressly/chi
+  version: 54f435d539226571eab1987ed862b1c0fdfdc892
+  subpackages:
+  - middleware
+  - render
+- name: github.com/spf13/afero
+  version: 9be650865eab0c12963d8753212f4f9c66cdcf12
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: ce135a4ebeee6cfe9a26c93ee0d37825f26113c7
+- name: github.com/spf13/cobra
+  version: 7be4beda01ec05d0b93d80b3facd2b6f44080d94
+- name: github.com/spf13/jwalterweatherman
+  version: fa7ca7e836cf3a8bb4ebf799f472c12d7e903d66
+- name: github.com/spf13/pflag
+  version: d90f37a48761fe767528f31db1955e4f795d652f
+- name: github.com/spf13/viper
+  version: 84f94806c67f59dd7ae87bc5351f7a9c94a4558d
+- name: github.com/ugorji/go
+  version: ded73eae5db7e7a0ef6f55aace87a2873c5d2b74
+  subpackages:
+  - codec
+- name: golang.org/x/net
+  version: f2499483f923065a842d38eb4c7f1927e6fc6e6d
+  subpackages:
+  - context
+  - http2
+  - http2/hpack
+  - internal/timeseries
+  - trace
+- name: golang.org/x/sys
+  version: 8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: 2910a502d2bf9e43193af9d68ca516529614eed3
+  subpackages:
+  - transform
+  - unicode/norm
+- name: gopkg.in/yaml.v2
+  version: 53feefa2559fb8dfa8d81baad31be332c97d6c77
+testImports: []
